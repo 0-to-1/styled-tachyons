@@ -79,6 +79,6 @@ const parsed = Object.keys(obj)
 
 const json = JSON.stringify(parsed, null, 2);
 
-fs.writeFileSync(path.join(__dirname, 'dist', 'tachyons.json'), json);
+fs.writeFileSync(path.join(__dirname, 'dist', 'library.json'), json);
 
 console.log('parsed CSS to JSON');
