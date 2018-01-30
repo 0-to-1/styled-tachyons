@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "description":
     "Design system utilities for styled-components, using tachyons classes",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "npm run build",
+    "build": "node parse.js",
+    "size": "bundlesize"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,15 @@
   "bugs": {
     "url": "https://github.com/0-to-1/styled-tachyons/issues"
   },
-  "homepage": "https://github.com/0-to-1/styled-tachyons#readme"
+  "homepage": "https://github.com/0-to-1/styled-tachyons#readme",
+  "devDependencies": {
+    "bundlesize": "^0.15.3",
+    "css-to-object": "^1.1.0",
+    "tachyons": "^4.9.1"
+  },
+  "bundlesize": [
+    {
+      "path": "dist/tachyons.json"
+    }
+  ]
 }
