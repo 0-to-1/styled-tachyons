@@ -18,6 +18,7 @@ export const bg_primary = bg_green;
 
 ```js
 // components file
+import styled from 'styled-components';
 import {
   f6,
   link,
@@ -27,7 +28,6 @@ import {
   pv2,
   mb2,
   dib,
-  white,
   pointer
 } from 'tachyons/library.json';
 import { color_primary, bg_primary } from 'tachyons';
