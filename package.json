@@ -1,0 +1,21 @@
+{
+  "name": "styled-tachyons",
+  "version": "0.1.0",
+  "description":
+    "Design system utilities for styled-components, using tachyons classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/0-to-1/styled-tachyons.git"
+  },
+  "keywords": ["styled-components", "tachyons"],
+  "author": "0-to-1 <0000000to1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0-to-1/styled-tachyons/issues"
+  },
+  "homepage": "https://github.com/0-to-1/styled-tachyons#readme"
+}
